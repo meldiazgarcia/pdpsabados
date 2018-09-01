@@ -18,7 +18,7 @@ object tom {
 }
 	
 object jerry {
-	var pos=0->5
+	var pos=10->5
 	var peso=3
 	
 	method velocidad () {
@@ -30,11 +30,6 @@ object jerry {
 		return pos
 		
 }	
-	//setter
-	method pos(_pos){
-		pos=_pos
-	}
-
 	
 	
 }
