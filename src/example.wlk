@@ -12,7 +12,7 @@ object tom {
 	}
 	
 	method correrA (raton) {
-		//energia-=0.5*self.velocidad()*distancia.entre(pos,raton.pos() )
+		energia-=0.5*self.velocidad()*distancia.entre(pos,raton.pos() )
 		pos=raton.pos()
 			}	
 }
